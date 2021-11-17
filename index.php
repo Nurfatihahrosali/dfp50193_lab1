@@ -40,6 +40,7 @@ $menu = [
     <table>
         <?php
         foreach ($menu as $mymenu => $value) {
+            echo "<tr></tr>";
             echo "<tr> <th>$mymenu</th>";
 
             foreach ($value as $menulist) {
@@ -49,28 +50,6 @@ $menu = [
         
         echo "</tr>"
         ?>
-        <!--  <tr>
-            <th>Item 1</th>
-            <td>Value 1</td>
-            <td>Value 2</td>
-            <td>Value 3</td>
-            <td>Value 4</td>
-        </tr>
-        <tr>
-            <th >Item 2</th>
-            <td>Value 1</td>
-            <td>Value 2</td>
-            <td>Value 3</td>
-            <td>Value 4</td>
-        </tr>
-        <tr>
-            <th >Item 3</th>
-            <td>Value 1</td>
-            <td>Value 2</td>
-            <td>Value 3</td>
-            <td>Value 4</td>
-        </tr> 
-        -->
     </table>
 </body>
 
