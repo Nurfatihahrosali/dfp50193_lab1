@@ -37,6 +37,7 @@ $menu = [
 </head>
 
 <body>
+
     <table>
         <?php
         foreach ($menu as $mymenu => $value) {
@@ -52,6 +53,7 @@ $menu = [
         ?>
     </table>
 </body>
+    
 
 </html>
 </body>
