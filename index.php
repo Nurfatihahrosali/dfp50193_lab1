@@ -1,23 +1,23 @@
 <?php
-$menu = [
-    'Laptop' => [
-        'HP',
-        'Asus',
-        'Acer',
-        'Apple'
+$food = [
+    'Ice Cream' => [
+        'Chocolate',
+        'Strawberry',
+        'Vanilla',
+        'Matcha'
 
     ],
-    'Smartphone' => [
-        'Samsung',
-        'Vivo',
-        'Huawei',
-        'Realme'
+    'Deserts' => [
+        'Cream Crepe',
+        'Waffle',
+        'CheeseCake',
+        'Brownies'
     ],
-    'Smartwatch' => [
-        'Fossil',
-        'Motorola',
-        'Huawei',
-        'Sony'
+    'Main Dish' => [
+        'Mee Goreng',
+        'Nasi Pattaya',
+        'Mee Kari',
+        'Nasi Goreng Ayam Madu Blackpepper'
     ],
 ];
 
@@ -37,12 +37,12 @@ $menu = [
 </head>
 
 <body>
-
+     <h1> Welcome to Sweet Cafe</h1>
     <table>
         <?php
-        foreach ($menu as $mymenu => $value) {
+        foreach ($food as $myfood => $value) {
             echo "<tr></tr>";
-            echo "<tr> <th>$mymenu</th>";
+            echo "<tr> <th>$myfood</th>";
 
             foreach ($value as $menulist) {
                 echo "<td>$menulist</td>";
